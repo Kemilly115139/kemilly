@@ -1,7 +1,17 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(500, 500);
   }
   
   function draw() {
-    background(220);
+    background("white");
   }
+    function draw() {
+     fill("red");
+    stroke("black");
+  
+    
+    console.log(mouseIsPressed)
+    
+    if (mouseIsPressed) 
+      rect(mouseX,mouseY,20,35)
+    }
